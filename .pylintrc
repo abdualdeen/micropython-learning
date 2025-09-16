@@ -1,0 +1,39 @@
+[TYPECHECK]
+# List of module names for which member attributes should not be checked
+ignored-modules = 
+    machine,
+    network,
+    uasyncio,
+    rp2,
+    ure,
+    ujson,
+    uzlib,
+    ubinascii,
+    uhashlib,
+    uos,
+    usys,
+    utime,
+    ustruct,
+    uselect,
+    usocket,
+    _thread,
+    uarray,
+    uctypes,
+    uerrno,
+    uio,
+    urandom,
+    ussl
+
+# List of classes names for which member attributes should not be checked
+ignored-classes =
+
+# List of members which are set dynamically and missed by pylint inference
+generated-members = 
+    Pin.*,
+    ADC.*,
+    PWM.*,
+    I2C.*,
+    SPI.*,
+    UART.*,
+    StateMachine.*,
+    WLAN.*
