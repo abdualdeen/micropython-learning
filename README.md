@@ -9,3 +9,5 @@ Learning micropython on the raspbery pi pico.
 * rshell
 
 ## vscode extensions
+* Raspberry Pi Pico
+* MicroPico
